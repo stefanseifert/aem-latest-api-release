@@ -17,7 +17,7 @@
         <version>0</version>
       </dependency>
 
-      <!-- AEMaaCS -->
+      <!-- AEM 6.5 -->
       <dependency>
         <groupId>com.adobe.aem</groupId>
         <artifactId>uber-jar</artifactId>
