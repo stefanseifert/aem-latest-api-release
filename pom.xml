@@ -20,7 +20,8 @@
     <dependency>
       <groupId>com.adobe.aem</groupId>
       <artifactId>aem-sdk-api</artifactId>
-      <version>0</version>
+      <version>2023.8.13323.20230831T134651Z-230800</version>
+      <scope>provided</scope>
     </dependency>
 
     <!-- AEM 6.5 -->
@@ -28,6 +29,7 @@
       <groupId>com.adobe.aem</groupId>
       <artifactId>uber-jar</artifactId>
       <version>6.5.18</version>
+      <scope>provided</scope>
     </dependency>
 
   </dependencies>
