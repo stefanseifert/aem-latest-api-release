@@ -21,7 +21,7 @@
       <dependency>
         <groupId>com.adobe.aem</groupId>
         <artifactId>uber-jar</artifactId>
-        <version>0</version>
+        <version>6.5.18</version>
       </dependency>
 
     </dependencies>
