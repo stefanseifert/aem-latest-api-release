@@ -5,6 +5,7 @@
     ":semanticCommitsDisabled"
   ],
   "separateMinorPatch": true,
+  "prHourlyLimit": 0,
   "packageRules": [
     {
       "matchPackageNames": ["aem:aem-latest-api-release.parent"],
