@@ -6,16 +6,13 @@
   ],
   "packageRules": [
     {
+      "matchPackageNames": ["aem:aem-latest-api-release.parent"],
+      "enabled": false
+    },
+    {
       "matchFileNames": ["aem-6.5/**"],
-      "bumpVersion": "patch"
-    },
-    {
-      "matchFileNames": ["aem-6.6/**"],
-      "bumpVersion": "major"
-    },
-    {
-      "matchFileNames": ["aem-sdk/**"],
-      "bumpVersion": "major"
+      "matchUpdateTypes": ["major", "minor"],
+      "enabled": false
     }
   ] 
 }
