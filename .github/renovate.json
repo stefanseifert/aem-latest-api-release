@@ -10,7 +10,7 @@
   "packageRules": [
     {
       "matchFileNames": ["aem-6.5/**"],
-      "bumpVersion": "minor"
+      "bumpVersion": "patch"
     }
   ] 
 }
