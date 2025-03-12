@@ -13,6 +13,11 @@
       "matchFileNames": ["aem-6.5/**"],
       "matchUpdateTypes": ["major", "minor"],
       "enabled": false
+    },
+    {
+      "matchFileNames": ["aem-6.5/**"],
+      "matchUpdateTypes": ["patch"],
+      "enabled": true
     }
   ] 
 }
