@@ -4,16 +4,20 @@
     "config:recommended",
     ":semanticCommitsDisabled"
   ],
-  "enabledManagers": [
-    "maven"
-  ],
   "packageRules": [
     {
       "matchFileNames": ["aem-6.5/**"],
+      "enabledManagers": ["maven"],
       "bumpVersion": "patch"
     },
     {
-      "matchFileNames": ["**"],
+      "matchFileNames": ["aem-6.6/**"],
+      "enabledManagers": ["maven"],
+      "bumpVersion": "major"
+    },
+    {
+      "matchFileNames": ["aem-sdk/**"],
+      "enabledManagers": ["maven"],
       "bumpVersion": "major"
     }
   ] 
