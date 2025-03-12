@@ -4,6 +4,7 @@
     "config:recommended",
     ":semanticCommitsDisabled"
   ],
+  "separateMinorPatch": true,
   "packageRules": [
     {
       "matchPackageNames": ["aem:aem-latest-api-release.parent"],
@@ -12,7 +13,6 @@
     {
       "matchFileNames": ["aem-6.5/**"],
       "matchUpdateTypes": ["major", "minor"],
-      "separateMinorPatch": true,
       "enabled": false
     }
   ] 
