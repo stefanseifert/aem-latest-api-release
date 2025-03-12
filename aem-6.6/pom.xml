@@ -4,9 +4,9 @@
 
   <parent>
     <groupId>aem</groupId>
-    <artifactId>aem-latest-api-release</artifactId>
+    <artifactId>aem-latest-api-release.parent</artifactId>
     <version>1-SNAPSHOT</version>
-    <relativePath>../pom.xml</relativePath>
+    <relativePath>../parent/pom.xml</relativePath>
   </parent>
 
   <groupId>aem</groupId>
