@@ -11,6 +11,10 @@
     {
       "matchFileNames": ["aem-6.5/**"],
       "bumpVersion": "patch"
+    },
+    {
+      "matchFileNames": ["**"],
+      "bumpVersion": "major"
     }
   ] 
 }
