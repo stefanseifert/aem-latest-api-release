@@ -12,6 +12,10 @@
       "enabled": false
     },
     {
+      "matchPackageNames": ["io.wcm.maven:io.wcm.maven.global-parent"],
+      "automerge": true
+    },
+    {
       "matchFileNames": ["aem-6.5/**"],
       "matchUpdateTypes": ["major", "minor"],
       "enabled": false
