@@ -19,7 +19,7 @@
     <dependency>
       <groupId>com.adobe.aem</groupId>
       <artifactId>aem-sdk-api</artifactId>
-      <version>2025.6.21331.20250619T192625Z-250500</version>
+      <version>2025.7.21570.20250715T080514Z-250600</version>
       <scope>provided</scope>
     </dependency>
 
